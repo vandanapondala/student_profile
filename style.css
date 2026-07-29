@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.box {
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.item {
+    background-color: orange;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
